@@ -1,13 +1,38 @@
 <?php
 
 return [
+    'title' => 'الإجازة',
+
+    'model-label' => 'إجازتي',
+
+    'navigation' => [
+        'title' => 'إجازتي',
+    ],
+
+    'form' => [
+        'fields' => [
+            'time-off-type'     => 'نوع الإجازة',
+            'date'              => 'التاريخ',
+            'dates'             => 'التواريخ',
+            'request-date-from' => 'تاريخ الطلب من',
+            'request-date-to'   => 'تاريخ الطلب إلى',
+            'description'       => 'الوصف',
+            'period'            => 'الفترة',
+            'half-day'          => 'نصف يوم',
+            'requested-days'    => 'المطلوب (أيام/ساعات)',
+            'attachment'        => 'مرفق',
+            'day'               => ':day يوم',
+            'days'              => ':days يوم/أيام',
+        ],
+    ],
+
     'table' => [
         'columns' => [
             'employee-name'  => 'الموظف',
             'time-off-type'  => 'نوع الإجازة',
             'description'    => 'الوصف',
-            'date-from'      => 'التاريخ من',
-            'date-to'        => 'التاريخ إلى',
+            'date-from'      => 'تاريخ البدء',
+            'date-to'        => 'تاريخ الانتهاء',
             'duration'       => 'المدة',
             'status'         => 'الحالة',
         ],
@@ -16,17 +41,17 @@ return [
             'employee-name' => 'الموظف',
             'time-off-type' => 'نوع الإجازة',
             'status'        => 'الحالة',
-            'start-date'    => 'تاريخ البداية',
-            'start-to'      => 'تاريخ النهاية',
-            'updated-at'    => 'تاريخ التحديث',
-            'created-at'    => 'تاريخ الإنشاء',
+            'start-date'    => 'تاريخ البدء',
+            'start-to'      => 'تاريخ الانتهاء',
+            'updated-at'    => 'تم التحديث في',
+            'created-at'    => 'تم الإنشاء في',
         ],
 
         'actions' => [
             'approve' => [
                 'title' => [
-                    'validate' => 'تحقق',
-                    'approve'  => 'موافقة',
+                    'validate' => 'التحقق',
+                    'approve'  => 'الموافقة',
                 ],
                 'notification' => [
                     'title' => 'تمت الموافقة على الإجازة',
@@ -71,9 +96,9 @@ return [
             'period'            => 'الفترة',
             'half-day'          => 'نصف يوم',
             'requested-days'    => 'المطلوب (أيام/ساعات)',
-            'attachment'        => 'المرفقات',
+            'attachment'        => 'مرفق',
             'day'               => ':day يوم',
-            'days'              => ':days يوم',
+            'days'              => ':days يوم/أيام',
         ],
     ],
-]; 
+];

@@ -1,6 +1,33 @@
 <?php
 
 return [
+    'title' => 'الإجازة',
+
+    'model-label' => 'الإجازة',
+
+    'navigation' => [
+        'title' => 'الإجازة',
+    ],
+
+    'form' => [
+        'fields' => [
+            'employee-name'     => 'اسم الموظف',
+            'department-name'   => 'اسم القسم',
+            'time-off-type'     => 'نوع الإجازة',
+            'date'              => 'التاريخ',
+            'dates'             => 'التواريخ',
+            'request-date-from' => 'تاريخ الطلب من',
+            'request-date-to'   => 'تاريخ الطلب إلى',
+            'description'       => 'الوصف',
+            'period'            => 'الفترة',
+            'half-day'          => 'نصف يوم',
+            'requested-days'    => 'المطلوب (أيام/ساعات)',
+            'attachment'        => 'المرفق',
+            'day'               => ':day يوم',
+            'days'              => ':days يوم/أيام',
+        ],
+    ],
+
     'table' => [
         'columns' => [
             'employee-name'  => 'الموظف',
@@ -18,8 +45,8 @@ return [
             'status'        => 'الحالة',
             'start-date'    => 'تاريخ البداية',
             'start-to'      => 'تاريخ النهاية',
-            'updated-at'    => 'تاريخ التحديث',
-            'created-at'    => 'تاريخ الإنشاء',
+            'updated-at'    => 'تم التحديث في',
+            'created-at'    => 'تم الإنشاء في',
         ],
 
         'actions' => [
@@ -71,9 +98,9 @@ return [
             'period'            => 'الفترة',
             'half-day'          => 'نصف يوم',
             'requested-days'    => 'المطلوب (أيام/ساعات)',
-            'attachment'        => 'المرفقات',
+            'attachment'        => 'المرفق',
             'day'               => ':day يوم',
-            'days'              => ':days يوم',
+            'days'              => ':days يوم/أيام',
         ],
     ],
-]; 
+];
