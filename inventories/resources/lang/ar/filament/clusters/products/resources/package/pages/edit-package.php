@@ -2,21 +2,21 @@
 
 return [
     'notification' => [
-        'title' => 'Package updated',
-        'body'  => 'The package has been updated successfully.',
+        'title' => 'تم تحديث الحزمة',
+        'body'  => 'تم تحديث الحزمة بنجاح.',
     ],
 
     'header-actions' => [
         'print' => [
-            'label' => 'Print',
+            'label' => 'طباعة',
 
             'actions' => [
                 'without-content' => [
-                    'label' => 'Print Barcode',
+                    'label' => 'طباعة الباركود',
                 ],
 
                 'with-content' => [
-                    'label' => 'Print Barcode With Content',
+                    'label' => 'طباعة الباركود مع المحتوى',
                 ],
             ],
         ],
@@ -24,13 +24,13 @@ return [
         'delete' => [
             'notification' => [
                 'success' => [
-                    'title' => 'Package deleted',
-                    'body'  => 'The package has been deleted successfully.',
+                    'title' => 'تم حذف الحزمة',
+                    'body'  => 'تم حذف الحزمة بنجاح.',
                 ],
 
                 'error' => [
-                    'title' => 'Package could not be deleted',
-                    'body'  => 'The package cannot be deleted because it is currently in use.',
+                    'title' => 'تعذر حذف الحزمة',
+                    'body'  => 'لا يمكن حذف الحزمة لأنها قيد الاستخدام حالياً.',
                 ],
             ],
         ],
