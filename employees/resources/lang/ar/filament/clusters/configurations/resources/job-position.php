@@ -1,60 +1,60 @@
 <?php
 
 return [
-    'title' => 'Job Positions',
+    'title' => 'الوظائف',
 
     'navigation' => [
-        'title' => 'Job Positions',
-        'group' => 'Recruitment',
+        'title' => 'الوظائف',
+        'group' => 'التوظيف',
     ],
 
     'form' => [
         'sections' => [
             'employment-information' => [
-                'title' => 'Employment Information',
+                'title' => 'معلومات التوظيف',
 
                 'fields' => [
-                    'job-position-title'         => 'Job Position Title',
-                    'job-position-title-tooltip' => 'Enter the official job position title',
-                    'department'                 => 'Department',
-                    'department-modal-title'     => 'Create Department',
-                    'company-modal-title'        => 'Create Company',
-                    'job-location'               => 'Job Location',
-                    'industry'                   => 'Industry',
-                    'company'                    => 'Company',
-                    'employment-type'            => 'Employment Type',
-                    'recruiter'                  => 'Recruiter',
-                    'interviewer'                => 'Interviewer',
+                    'job-position-title'         => 'عنوان الوظيفة',
+                    'job-position-title-tooltip' => 'أدخل العنوان الرسمي للوظيفة',
+                    'department'                 => 'القسم',
+                    'department-modal-title'     => 'إنشاء قسم',
+                    'company-modal-title'        => 'إنشاء شركة',
+                    'job-location'               => 'مكان العمل',
+                    'industry'                   => 'الصناعة',
+                    'company'                    => 'الشركة',
+                    'employment-type'            => 'نوع التوظيف',
+                    'recruiter'                  => 'المسؤول عن التوظيف',
+                    'interviewer'                => 'المقابِل',
                 ],
             ],
 
             'job-description' => [
-                'title' => 'Job Description',
+                'title' => 'وصف الوظيفة',
 
                 'fields' => [
-                    'job-description'  => 'Job Description',
-                    'job-requirements' => 'Job Requirements',
+                    'job-description'  => 'وصف الوظيفة',
+                    'job-requirements' => 'متطلبات الوظيفة',
                 ],
             ],
 
             'workforce-planning' => [
-                'title' => 'Workforce Planning',
+                'title' => 'تخطيط القوى العاملة',
 
                 'fields' => [
-                    'recruitment-target'         => 'Recruitment Target',
-                    'date-from'                  => 'Date From',
-                    'date-to'                    => 'Date To',
-                    'expected-skills'            => 'Expected Skills',
-                    'employment-type'            => 'Employment Type',
-                    'status'                     => 'Status',
+                    'recruitment-target'         => 'هدف التوظيف',
+                    'date-from'                  => 'التاريخ من',
+                    'date-to'                    => 'التاريخ إلى',
+                    'expected-skills'            => 'المهارات المتوقعة',
+                    'employment-type'            => 'نوع التوظيف',
+                    'status'                     => 'الحالة',
                 ],
             ],
 
             'position-status' => [
-                'title' => 'Position Status',
+                'title' => 'حالة الوظيفة',
 
                 'fields' => [
-                    'status' => 'Status',
+                    'status' => 'الحالة',
                 ],
             ],
         ],
@@ -62,52 +62,52 @@ return [
 
     'table' => [
         'columns' => [
-            'id'                 => 'ID',
-            'name'               => 'Job Position',
-            'department'         => 'Department',
-            'job-position'       => 'Job Position',
-            'company'            => 'Company',
-            'expected-employees' => 'Expected Employees',
-            'current-employees'  => 'Current Employees',
-            'status'             => 'Status',
-            'created-by'         => 'Created By',
-            'created-at'         => 'Created At',
-            'updated-at'         => 'Updated At',
+            'id'                 => 'المعرف',
+            'name'               => 'الوظيفة',
+            'department'         => 'القسم',
+            'job-position'       => 'الوظيفة',
+            'company'            => 'الشركة',
+            'expected-employees' => 'الموظفون المتوقعون',
+            'current-employees'  => 'الموظفون الحاليون',
+            'status'             => 'الحالة',
+            'created-by'         => 'أنشئ بواسطة',
+            'created-at'         => 'تاريخ الإنشاء',
+            'updated-at'         => 'تاريخ التحديث',
         ],
 
         'filters' => [
-            'department'      => 'Department',
-            'employment-type' => 'Employment Type',
-            'job-position'    => 'Job Position',
-            'company'         => 'Company',
-            'status'          => 'Status',
-            'created-by'      => 'Created By',
-            'updated-at'      => 'Updated At',
-            'created-at'      => 'Created At',
+            'department'      => 'القسم',
+            'employment-type' => 'نوع التوظيف',
+            'job-position'    => 'الوظيفة',
+            'company'         => 'الشركة',
+            'status'          => 'الحالة',
+            'created-by'      => 'أنشئ بواسطة',
+            'updated-at'      => 'تاريخ التحديث',
+            'created-at'      => 'تاريخ الإنشاء',
         ],
 
         'groups' => [
-            'job-position'    => 'Job Position',
-            'company'         => 'Company',
-            'department'      => 'Department',
-            'employment-type' => 'Employment Type',
-            'created-by'      => 'Created By',
-            'created-at'      => 'Created At',
-            'updated-at'      => 'Updated At',
+            'job-position'    => 'الوظيفة',
+            'company'         => 'الشركة',
+            'department'      => 'القسم',
+            'employment-type' => 'نوع التوظيف',
+            'created-by'      => 'أنشئ بواسطة',
+            'created-at'      => 'تاريخ الإنشاء',
+            'updated-at'      => 'تاريخ التحديث',
         ],
 
         'actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Job Position restored',
-                    'body'  => 'The Job Position has been restored successfully.',
+                    'title' => 'تم استعادة الوظيفة',
+                    'body'  => 'تم استعادة الوظيفة بنجاح.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Job Position deleted',
-                    'body'  => 'The Job Position has been deleted successfully.',
+                    'title' => 'تم حذف الوظيفة',
+                    'body'  => 'تم حذف الوظيفة بنجاح.',
                 ],
             ],
         ],
@@ -115,22 +115,22 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Job Positions restored',
-                    'body'  => 'The Job Positions has been restored successfully.',
+                    'title' => 'تم استعادة الوظائف',
+                    'body'  => 'تم استعادة الوظائف بنجاح.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Job Positions deleted',
-                    'body'  => 'The Job Positions has been deleted successfully.',
+                    'title' => 'تم حذف الوظائف',
+                    'body'  => 'تم حذف الوظائف بنجاح.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Job Positions force deleted',
-                    'body'  => 'The Job Positions has been force deleted successfully.',
+                    'title' => 'تم حذف الوظائف نهائيًا',
+                    'body'  => 'تم حذف الوظائف نهائيًا بنجاح.',
                 ],
             ],
         ],
@@ -138,8 +138,8 @@ return [
         'empty-state-actions' => [
             'create' => [
                 'notification' => [
-                    'title' => 'Job Positions',
-                    'body'  => 'The Job Positions has been created successfully.',
+                    'title' => 'الوظائف',
+                    'body'  => 'تم إنشاء الوظائف بنجاح.',
                 ],
             ],
         ],
@@ -148,41 +148,41 @@ return [
     'infolist' => [
         'sections' => [
             'employment-information' => [
-                'title' => 'Employment Information',
+                'title' => 'معلومات التوظيف',
 
                 'entries' => [
-                    'job-position-title' => 'Job Position Title',
-                    'department'         => 'Department',
-                    'company'            => 'Company',
-                    'employment-type'    => 'Employment Type',
-                    'job-location'       => 'Job Location',
-                    'industry'           => 'Industry',
+                    'job-position-title' => 'عنوان الوظيفة',
+                    'department'         => 'القسم',
+                    'company'            => 'الشركة',
+                    'employment-type'    => 'نوع التوظيف',
+                    'job-location'       => 'مكان العمل',
+                    'industry'           => 'الصناعة',
                 ],
             ],
             'job-description' => [
-                'title' => 'Job Description',
+                'title' => 'وصف الوظيفة',
 
                 'entries' => [
-                    'job-description'  => 'Job Description',
-                    'job-requirements' => 'Job Requirements',
+                    'job-description'  => 'وصف الوظيفة',
+                    'job-requirements' => 'متطلبات الوظيفة',
                 ],
             ],
             'work-planning' => [
-                'title' => 'Workforce Planning',
+                'title' => 'تخطيط القوى العاملة',
 
                 'entries' => [
-                    'expected-employees' => 'Expected Employees',
-                    'current-employees'  => 'Current Employees',
-                    'date-from'          => 'Date From',
-                    'date-to'            => 'Date To',
-                    'recruitment-target' => 'Recruitment Target',
+                    'expected-employees' => 'الموظفون المتوقعون',
+                    'current-employees'  => 'الموظفون الحاليون',
+                    'date-from'          => 'التاريخ من',
+                    'date-to'            => 'التاريخ إلى',
+                    'recruitment-target' => 'هدف التوظيف',
                 ],
             ],
             'position-status' => [
-                'title' => 'Position Status',
+                'title' => 'حالة الوظيفة',
 
                 'entries' => [
-                    'status' => 'Status',
+                    'status' => 'الحالة',
                 ],
             ],
         ],
