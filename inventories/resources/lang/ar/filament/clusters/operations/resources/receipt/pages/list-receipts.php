@@ -3,11 +3,11 @@
 return [
     'header-actions' => [
         'create' => [
-            'label' => 'New Receipt',
+            'label' => 'سند استلام جديد',
 
             'notification' => [
-                'title' => 'Receipt created',
-                'body'  => 'The receipt has been created successfully.',
+                'title' => 'تم إنشاء سند الاستلام',
+                'body'  => 'تم إنشاء سند الاستلام بنجاح.',
             ],
         ],
     ],

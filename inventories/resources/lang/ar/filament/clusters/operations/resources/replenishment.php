@@ -2,59 +2,62 @@
 
 return [
     'navigation' => [
-        'title' => 'Replenishment',
-        'group' => 'Procurement',
+        'title' => 'التوريد',
+        'group' => 'المشتريات',
     ],
 
     'form' => [
         'fields' => [
+            // لا توجد حقول محددة حتى الآن
         ],
     ],
 
     'table' => [
         'columns' => [
-            'product'           => 'Product',
-            'location'          => 'Location',
-            'route'             => 'Route',
-            'vendor'            => 'Vendor',
-            'trigger'           => 'Trigger',
-            'on-hand'           => 'On Hand',
-            'min'               => 'Min',
-            'max'               => 'Max',
-            'multiple-quantity' => 'Multiple Quantity',
-            'to-order'          => 'To Order',
-            'uom'               => 'UOM',
-            'company'           => 'Company',
+            'product'           => 'المنتج',
+            'location'          => 'الموقع',
+            'route'             => 'المسار',
+            'vendor'            => 'المورد',
+            'trigger'           => 'المحفز',
+            'on-hand'           => 'المتوفر',
+            'min'               => 'الحد الأدنى',
+            'max'               => 'الحد الأعلى',
+            'multiple-quantity' => 'كمية متعددة',
+            'to-order'          => 'للطلب',
+            'uom'               => 'وحدة القياس',
+            'company'           => 'الشركة',
         ],
 
         'groups' => [
-            'location' => 'Location',
-            'product'  => 'Product',
-            'category' => 'Category',
+            'location' => 'الموقع',
+            'product'  => 'المنتج',
+            'category' => 'الفئة',
         ],
 
         'filters' => [
+            // لا توجد فلاتر حتى الآن
         ],
 
         'header-actions' => [
             'create' => [
-                'label' => 'Add Replenishment',
+                'label' => 'إضافة توريد',
 
                 'notification' => [
-                    'title' => 'Replenishment added',
-                    'body'  => 'The replenishment has been added successfully.',
+                    'title' => 'تم إضافة التوريد',
+                    'body'  => 'تمت إضافة التوريد بنجاح.',
                 ],
 
                 'before' => [
                     'notification' => [
-                        'title' => 'Replenishment already exists',
-                        'body'  => 'A replenishment already exists for this configuration. Please update the existing replenishment instead.',
+                        'title' => 'التوريد موجود بالفعل',
+                        'body'  => 'التوريد موجود بالفعل لهذه التهيئة. يرجى تحديث التوريد الموجود بدلاً من ذلك.',
                     ],
                 ],
             ],
         ],
 
         'actions' => [
+            // لا توجد إجراءات محددة حتى الآن
         ],
     ],
 ];

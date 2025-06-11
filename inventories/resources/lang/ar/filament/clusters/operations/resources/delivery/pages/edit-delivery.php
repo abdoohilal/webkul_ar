@@ -2,25 +2,25 @@
 
 return [
     'notification' => [
-        'title' => 'Delivery updated',
-        'body'  => 'The delivery has been updated successfully.',
+        'title' => 'تم تحديث عملية التسليم',
+        'body'  => 'تم تحديث عملية التسليم بنجاح.',
     ],
 
     'header-actions' => [
         'print' => [
-            'label' => 'Print',
+            'label' => 'طباعة',
         ],
 
         'delete' => [
             'notification' => [
                 'success' => [
-                    'title' => 'Delivery deleted',
-                    'body'  => 'The delivery has been deleted successfully.',
+                    'title' => 'تم حذف عملية التسليم',
+                    'body'  => 'تم حذف عملية التسليم بنجاح.',
                 ],
 
                 'error' => [
-                    'title' => 'Delivery could not be deleted',
-                    'body'  => 'The delivery cannot be deleted because it is currently in use.',
+                    'title' => 'تعذر حذف عملية التسليم',
+                    'body'  => 'لا يمكن حذف عملية التسليم لأنها قيد الاستخدام حالياً.',
                 ],
             ],
         ],

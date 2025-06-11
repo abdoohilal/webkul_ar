@@ -1,10 +1,10 @@
 <?php
 
 return [
-    'title' => 'Create Dropship',
+    'title' => 'إنشاء شحنة Dropship',
 
     'notification' => [
-        'title' => 'Dropship created',
-        'body'  => 'The dropship has been created successfully.',
+        'title' => 'تم إنشاء شحنة Dropship',
+        'body'  => 'تم إنشاء شحنة Dropship بنجاح.',
     ],
 ];

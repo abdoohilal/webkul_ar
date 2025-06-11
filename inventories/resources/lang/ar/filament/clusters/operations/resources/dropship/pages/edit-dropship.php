@@ -2,27 +2,28 @@
 
 return [
     'notification' => [
-        'title' => 'Dropship updated',
-        'body'  => 'The dropship has been updated successfully.',
+        'title' => 'تم تحديث شحنة Dropship',
+        'body'  => 'تم تحديث شحنة Dropship بنجاح.',
     ],
 
     'header-actions' => [
         'print' => [
-            'label' => 'Print',
+            'label' => 'طباعة',
         ],
 
         'delete' => [
             'notification' => [
                 'success' => [
-                    'title' => 'Dropship deleted',
-                    'body'  => 'The dropship has been deleted successfully.',
+                    'title' => 'تم حذف شحنة Dropship',
+                    'body'  => 'تم حذف شحنة Dropship بنجاح.',
                 ],
 
                 'error' => [
-                    'title' => 'Dropship could not be deleted',
-                    'body'  => 'The dropship cannot be deleted because it is currently in use.',
+                    'title' => 'تعذر حذف شحنة Dropship',
+                    'body'  => 'لا يمكن حذف شحنة Dropship لأنها قيد الاستخدام حالياً.',
                 ],
             ],
         ],
     ],
 ];
+

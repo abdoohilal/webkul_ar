@@ -2,21 +2,21 @@
 
 return [
     'navigation' => [
-        'title' => 'Packages',
-        'group' => 'Inventory',
+        'title' => 'الحزم',
+        'group' => 'المخزون',
     ],
 
     'form' => [
         'sections' => [
             'general' => [
-                'title' => 'General',
+                'title' => 'عام',
 
                 'fields' => [
-                    'name'             => 'Name',
-                    'name-placeholder' => 'eg. PACK007',
-                    'package-type'     => 'Package Type',
-                    'pack-date'        => 'Pack Date',
-                    'location'         => 'Location',
+                    'name'             => 'الاسم',
+                    'name-placeholder' => 'مثال: PACK007',
+                    'package-type'     => 'نوع الحزمة',
+                    'pack-date'        => 'تاريخ التعبئة',
+                    'location'         => 'الموقع',
                 ],
             ],
         ],
@@ -24,38 +24,38 @@ return [
 
     'table' => [
         'columns' => [
-            'name'         => 'Name',
-            'package-type' => 'Package Type',
-            'location'     => 'Location',
-            'company'      => 'Company',
-            'created-at'   => 'Created At',
-            'updated-at'   => 'Updated At',
+            'name'         => 'الاسم',
+            'package-type' => 'نوع الحزمة',
+            'location'     => 'الموقع',
+            'company'      => 'الشركة',
+            'created-at'   => 'تاريخ الإنشاء',
+            'updated-at'   => 'تاريخ التحديث',
         ],
 
         'groups' => [
-            'package-type'   => 'Package Type',
-            'location'       => 'Location',
-            'created-at'     => 'Created At',
+            'package-type'   => 'نوع الحزمة',
+            'location'       => 'الموقع',
+            'created-at'     => 'تاريخ الإنشاء',
         ],
 
         'filters' => [
-            'package-type' => 'Package Type',
-            'location'     => 'Location',
-            'creator'      => 'Creator',
-            'company'      => 'Company',
+            'package-type' => 'نوع الحزمة',
+            'location'     => 'الموقع',
+            'creator'      => 'المنشئ',
+            'company'      => 'الشركة',
         ],
 
         'actions' => [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Package deleted',
-                        'body'  => 'The package has been deleted successfully.',
+                        'title' => 'تم حذف الحزمة',
+                        'body'  => 'تم حذف الحزمة بنجاح.',
                     ],
 
                     'error' => [
-                        'title' => 'Package could not be deleted',
-                        'body'  => 'The package cannot be deleted because it is currently in use.',
+                        'title' => 'تعذر حذف الحزمة',
+                        'body'  => 'لا يمكن حذف الحزمة لأنها قيد الاستخدام حالياً.',
                     ],
                 ],
             ],
@@ -63,23 +63,23 @@ return [
 
         'bulk-actions' => [
             'print-without-content' => [
-                'label' => 'Print Barcode',
+                'label' => 'طباعة الباركود',
             ],
 
             'print-with-content' => [
-                'label' => 'Print Barcode With Content',
+                'label' => 'طباعة الباركود مع المحتوى',
             ],
 
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Packages deleted',
-                        'body'  => 'The packages has been deleted successfully.',
+                        'title' => 'تم حذف الحزم',
+                        'body'  => 'تم حذف الحزم بنجاح.',
                     ],
 
                     'error' => [
-                        'title' => 'Packages could not be deleted',
-                        'body'  => 'The packages cannot be deleted because they are currently in use.',
+                        'title' => 'تعذر حذف الحزم',
+                        'body'  => 'لا يمكن حذف الحزم لأنها قيد الاستخدام حالياً.',
                     ],
                 ],
             ],
@@ -89,26 +89,26 @@ return [
     'infolist' => [
         'sections' => [
             'general' => [
-                'title' => 'Package Details',
+                'title' => 'تفاصيل الحزمة',
 
                 'entries' => [
-                    'name'         => 'Package Name',
-                    'package-type' => 'Package Type',
-                    'pack-date'    => 'Pack Date',
-                    'location'     => 'Location',
-                    'company'      => 'Company',
-                    'created-at'   => 'Created At',
-                    'updated-at'   => 'Last Updated',
+                    'name'         => 'اسم الحزمة',
+                    'package-type' => 'نوع الحزمة',
+                    'pack-date'    => 'تاريخ التعبئة',
+                    'location'     => 'الموقع',
+                    'company'      => 'الشركة',
+                    'created-at'   => 'تاريخ الإنشاء',
+                    'updated-at'   => 'آخر تحديث',
                 ],
             ],
 
             'record-information' => [
-                'title' => 'Record Information',
+                'title' => 'معلومات السجل',
 
                 'entries' => [
-                    'created-by'   => 'Created By',
-                    'created-at'   => 'Created At',
-                    'last-updated' => 'Last Updated',
+                    'created-by'   => 'تم الإنشاء بواسطة',
+                    'created-at'   => 'تاريخ الإنشاء',
+                    'last-updated' => 'آخر تحديث',
                 ],
             ],
         ],

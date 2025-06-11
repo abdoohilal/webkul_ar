@@ -1,10 +1,10 @@
 <?php
 
 return [
-    'title' => 'Create Receipt',
+    'title' => 'إنشاء سند استلام',
 
     'notification' => [
-        'title' => 'Receipt created',
-        'body'  => 'The receipt has been created successfully.',
+        'title' => 'تم إنشاء سند الاستلام',
+        'body'  => 'تم إنشاء سند الاستلام بنجاح.',
     ],
 ];

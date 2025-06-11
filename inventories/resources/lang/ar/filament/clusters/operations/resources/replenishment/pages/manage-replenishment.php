@@ -1,12 +1,12 @@
 <?php
 
 return [
-    'title' => 'Replenishment',
+    'title' => 'إعادة التوريد',
 
     'tabs' => [
-        'trigger-manual'    => 'Trigger Manual',
-        'trigger-automatic' => 'Trigger Automatic',
-        'to-order'          => 'To Order',
-        'not-snoozed'       => 'Not Snoozed',
+        'trigger-manual'    => 'تفعيل يدوي',
+        'trigger-automatic' => 'تفعيل تلقائي',
+        'to-order'          => 'للطلب',
+        'not-snoozed'       => 'غير مؤجل',
     ],
 ];

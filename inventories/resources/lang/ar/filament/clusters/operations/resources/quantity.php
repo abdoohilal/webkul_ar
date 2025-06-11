@@ -2,91 +2,90 @@
 
 return [
     'navigation' => [
-        'title' => 'Quantities',
-        'group' => 'Adjustments',
+        'title' => 'الكميات',
+        'group' => 'التعديلات',
     ],
 
     'form' => [
         'fields' => [
-            'location'         => 'Location',
-            'product'          => 'Product',
-            'package'          => 'Package',
-            'lot'              => 'Lot / Serial Numbers',
-            'counted-qty'      => 'Counted Quantity',
-            'scheduled-at'     => 'Scheduled At',
-            'storage-category' => 'Storage Category',
+            'location'         => 'الموقع',
+            'product'          => 'المنتج',
+            'package'          => 'الحزمة',
+            'lot'              => 'الأرقام التسلسلية / الدفعات',
+            'counted-qty'      => 'الكمية المحسوبة',
+            'scheduled-at'     => 'موعد الجدولة',
+            'storage-category' => 'فئة التخزين',
         ],
     ],
 
     'table' => [
         'columns' => [
-            'location'           => 'Location',
-            'product'            => 'Product',
-            'product-category'   => 'Product Category',
-            'lot'                => 'Lot / Serial Numbers',
-            'storage-category'   => 'Storage Category',
-            'available-quantity' => 'Available Quantity',
-            'quantity'           => 'Quantity',
-            'package'            => 'Package',
-            'last-counted-at'    => 'Last Counted At',
-            'on-hand'            => 'On Hand Quantity',
-            'counted'            => 'Counted Quantity',
-            'difference'         => 'Difference',
-            'scheduled-at'       => 'Scheduled At',
-            'user'               => 'User',
-            'company'            => 'Company',
+            'location'           => 'الموقع',
+            'product'            => 'المنتج',
+            'product-category'   => 'فئة المنتج',
+            'lot'                => 'الأرقام التسلسلية / الدفعات',
+            'storage-category'   => 'فئة التخزين',
+            'available-quantity' => 'الكمية المتاحة',
+            'quantity'           => 'الكمية',
+            'package'            => 'الحزمة',
+            'last-counted-at'    => 'آخر تاريخ للحساب',
+            'on-hand'            => 'الكمية الموجودة',
+            'counted'            => 'الكمية المحسوبة',
+            'difference'         => 'الفرق',
+            'scheduled-at'       => 'موعد الجدولة',
+            'user'               => 'المستخدم',
+            'company'            => 'الشركة',
 
             'on-hand-before-state-updated' => [
                 'notification' => [
-                    'title' => 'Quantity updated',
-                    'body'  => 'The quantity has been updated successfully.',
+                    'title' => 'تم تحديث الكمية',
+                    'body'  => 'تم تحديث الكمية بنجاح.',
                 ],
             ],
         ],
 
         'groups' => [
-            'product'          => 'Product',
-            'product-category' => 'Product Category',
-            'location'         => 'Location',
-            'storage-category' => 'Storage Category',
-            'lot'              => 'Lot / Serial Numbers',
-            'company'          => 'Company',
-            'package'          => 'Package',
+            'product'          => 'المنتج',
+            'product-category' => 'فئة المنتج',
+            'location'         => 'الموقع',
+            'storage-category' => 'فئة التخزين',
+            'lot'              => 'الأرقام التسلسلية / الدفعات',
+            'company'          => 'الشركة',
+            'package'          => 'الحزمة',
         ],
 
         'filters' => [
-            'product'             => 'Product',
-            'uom'                 => 'Unit of Measure',
-            'product-category'    => 'Product Category',
-            'location'            => 'Location',
-            'storage-category'    => 'Storage Category',
-            'lot'                 => 'Lot / Serial Numbers',
-            'company'             => 'Company',
-            'package'             => 'Package',
-            'on-hand-quantity'    => 'On Hand Quantity',
-            'difference-quantity' => 'Difference Quantity',
-            'incoming-at'         => 'Incoming At',
-            'scheduled-at'        => 'Scheduled At',
-            'user'                => 'User',
-            'created-at'          => 'Created At',
-            'updated-at'          => 'Updated At',
-            'company'             => 'Company',
-            'creator'             => 'Creator',
+            'product'             => 'المنتج',
+            'uom'                 => 'وحدة القياس',
+            'product-category'    => 'فئة المنتج',
+            'location'            => 'الموقع',
+            'storage-category'    => 'فئة التخزين',
+            'lot'                 => 'الأرقام التسلسلية / الدفعات',
+            'company'             => 'الشركة',
+            'package'             => 'الحزمة',
+            'on-hand-quantity'    => 'الكمية الموجودة',
+            'difference-quantity' => 'كمية الفرق',
+            'incoming-at'         => 'الوارد في',
+            'scheduled-at'        => 'موعد الجدولة',
+            'user'                => 'المستخدم',
+            'created-at'          => 'تاريخ الإنشاء',
+            'updated-at'          => 'تاريخ التحديث',
+            'creator'             => 'المنشئ',
         ],
 
         'header-actions' => [
             'create' => [
-                'label' => 'Add Quantity',
+                'label' => 'إضافة كمية',
 
                 'notification' => [
-                    'title' => 'Quantity added',
-                    'body'  => 'The quantity has been added successfully.',
+                    'title' => 'تمت إضافة الكمية',
+                    'body'  => 'تمت إضافة الكمية بنجاح.',
                 ],
 
                 'before' => [
                     'notification' => [
-                        'title' => 'Quantity already exists',
-                        'body'  => 'A quantity already exists for this configuration. Please update the existing quantity instead.',
+                        'title' => 'الكمية موجودة بالفعل',
+                        'body'  => 'الكمية موجودة بالفعل لهذا التكوين. يرجى تحديث الكمية الحالية بدلاً من ذلك.',
                     ],
                 ],
             ],
@@ -94,20 +93,20 @@ return [
 
         'actions' => [
             'apply' => [
-                'label' => 'Apply',
+                'label' => 'تطبيق',
 
                 'notification' => [
-                    'title' => 'Quantity changes applied',
-                    'body'  => 'The quantity changes has been applied successfully.',
+                    'title' => 'تم تطبيق التغييرات',
+                    'body'  => 'تم تطبيق تغييرات الكمية بنجاح.',
                 ],
             ],
 
             'clear' => [
-                'label' => 'Clear',
+                'label' => 'مسح',
 
                 'notification' => [
-                    'title' => 'Quantity changes cleared',
-                    'body'  => 'The quantity changes have been cleared successfully.',
+                    'title' => 'تم مسح التغييرات',
+                    'body'  => 'تم مسح تغييرات الكمية بنجاح.',
                 ],
             ],
         ],

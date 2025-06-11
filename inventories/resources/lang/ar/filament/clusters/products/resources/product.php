@@ -2,69 +2,69 @@
 
 return [
     'navigation' => [
-        'title' => 'Products',
-        'group' => 'Inventory',
+        'title' => 'المنتجات',
+        'group' => 'المخزون',
     ],
 
     'form' => [
         'sections' => [
             'inventory' => [
-                'title' => 'Inventory',
+                'title' => 'المخزون',
 
                 'fieldsets' => [
                     'tracking' => [
-                        'title' => 'Tracking',
+                        'title' => 'التتبع',
 
                         'fields' => [
-                            'track-inventory'              => 'Track Inventory',
-                            'track-inventory-hint-tooltip' => 'A storable product is one that requires inventory management..',
-                            'track-by'                     => 'Track By',
-                            'expiration-date'              => 'Expiration Date',
-                            'expiration-date-hint-tooltip' => 'If selected, you can specify expiration dates for the product and its associated lot/serial numbers.',
+                            'track-inventory'              => 'تتبع المخزون',
+                            'track-inventory-hint-tooltip' => 'المنتج القابل للتخزين هو المنتج الذي يتطلب إدارة للمخزون.',
+                            'track-by'                     => 'التتبع بواسطة',
+                            'expiration-date'              => 'تاريخ انتهاء الصلاحية',
+                            'expiration-date-hint-tooltip' => 'إذا تم التحديد، يمكنك تحديد تواريخ انتهاء الصلاحية للمنتج وأرقام الدفعات/التسلسلية المرتبطة به.',
                         ],
                     ],
 
                     'operation' => [
-                        'title' => 'Operations',
+                        'title' => 'العمليات',
 
                         'fields' => [
-                            'routes'              => 'Routes',
-                            'routes-hint-tooltip' => 'Based on the installed modules, this setting allows you to define the product\'s route, such as purchasing, manufacturing, or replenishing on order.',
+                            'routes'              => 'الطرق',
+                            'routes-hint-tooltip' => 'اعتمادًا على الوحدات المثبتة، تتيح لك هذه الإعدادات تحديد مسار المنتج مثل الشراء أو التصنيع أو التجديد عند الطلب.',
                         ],
                     ],
 
                     'logistics' => [
-                        'title' => 'Logistics',
+                        'title' => 'اللوجستيات',
 
                         'fields' => [
-                            'responsible'              => 'Responsible',
-                            'responsible-hint-tooltip' => 'Delivery lead time (in days) represents the promised duration between sales order confirmation and product delivery.',
-                            'weight'                   => 'Weight',
-                            'volume'                   => 'Volume',
-                            'sale-delay'               => 'Customer Lead Time (Days)',
-                            'sale-delay-hint-tooltip'  => 'Delivery lead time (in days) represents the promised duration between sales order confirmation and product delivery.',
+                            'responsible'              => 'المسؤول',
+                            'responsible-hint-tooltip' => 'مدة التسليم (بأيام) تمثل المدة الموعودة بين تأكيد طلب البيع وتسليم المنتج.',
+                            'weight'                   => 'الوزن',
+                            'volume'                   => 'الحجم',
+                            'sale-delay'               => 'مدة انتظار العميل (أيام)',
+                            'sale-delay-hint-tooltip'  => 'مدة التسليم (بأيام) تمثل المدة الموعودة بين تأكيد طلب البيع وتسليم المنتج.',
                         ],
                     ],
 
                     'traceability' => [
-                        'title' => 'Traceability',
+                        'title' => 'القابلية للتتبع',
 
                         'fields' => [
-                            'expiration-date'               => 'Expiration Date (Days)',
-                            'expiration-date-hint-tooltip'  => 'If selected, you can set expiration dates for the product and its associated lot/serial numbers.',
-                            'best-before-date'              => 'Best Before Date (Days)',
-                            'best-before-date-hint-tooltip' => 'The number of days before the expiration date when the product begins to deteriorate, though it is still safe to use. This is calculated based on the lot/serial number.',
-                            'removal-date'                  => 'Removal Date (Days)',
-                            'removal-date-hint-tooltip'     => 'The number of days before the expiration date when the product should be removed from stock. This is calculated based on the lot/serial number.',
-                            'alert-date'                    => 'Alert Date (Days)',
-                            'alert-date-hint-tooltip'       => 'The number of days before the expiration date when an alert should be triggered for the lot/serial number. This is calculated based on the lot/serial number.',
+                            'expiration-date'               => 'تاريخ انتهاء الصلاحية (بأيام)',
+                            'expiration-date-hint-tooltip'  => 'إذا تم التحديد، يمكنك تعيين تواريخ انتهاء الصلاحية للمنتج وأرقام الدفعات/التسلسلية المرتبطة به.',
+                            'best-before-date'              => 'أفضل استخدام قبل (بأيام)',
+                            'best-before-date-hint-tooltip' => 'عدد الأيام قبل تاريخ الانتهاء حيث يبدأ المنتج في التلف، ولكنه لا يزال آمنًا للاستخدام. يتم حسابه بناءً على رقم الدفعة/التسلسل.',
+                            'removal-date'                  => 'تاريخ الإزالة (بأيام)',
+                            'removal-date-hint-tooltip'     => 'عدد الأيام قبل تاريخ الانتهاء حيث يجب إزالة المنتج من المخزون. يتم حسابه بناءً على رقم الدفعة/التسلسل.',
+                            'alert-date'                    => 'تاريخ التنبيه (بأيام)',
+                            'alert-date-hint-tooltip'       => 'عدد الأيام قبل تاريخ الانتهاء حيث يتم تفعيل تنبيه لرقم الدفعة/التسلسل. يتم حسابه بناءً على رقم الدفعة/التسلسل.',
                         ],
                     ],
                 ],
             ],
 
             'additional' => [
-                'title' => 'Additional',
+                'title' => 'إضافي',
             ],
         ],
     ],
@@ -72,49 +72,49 @@ return [
     'infolist' => [
         'sections' => [
             'inventory' => [
-                'title' => 'Inventory',
+                'title' => 'المخزون',
 
                 'entries' => [
                 ],
 
                 'fieldsets' => [
                     'tracking' => [
-                        'title' => 'Tracking',
+                        'title' => 'التتبع',
 
                         'entries' => [
-                            'track-inventory' => 'Track Inventory',
-                            'track-by'        => 'Track By',
-                            'expiration-date' => 'Expiration Date',
+                            'track-inventory' => 'تتبع المخزون',
+                            'track-by'        => 'التتبع بواسطة',
+                            'expiration-date' => 'تاريخ انتهاء الصلاحية',
                         ],
                     ],
 
                     'operation' => [
-                        'title' => 'Operations',
+                        'title' => 'العمليات',
 
                         'entries' => [
-                            'routes' => 'Routes',
+                            'routes' => 'الطرق',
                         ],
                     ],
 
                     'logistics' => [
-                        'title' => 'Logistics',
+                        'title' => 'اللوجستيات',
 
                         'entries' => [
-                            'responsible' => 'Responsible',
-                            'weight'      => 'Weight',
-                            'volume'      => 'Volume',
-                            'sale-delay'  => 'Customer Lead Time (Days)',
+                            'responsible' => 'المسؤول',
+                            'weight'      => 'الوزن',
+                            'volume'      => 'الحجم',
+                            'sale-delay'  => 'مدة انتظار العميل (أيام)',
                         ],
                     ],
 
                     'traceability' => [
-                        'title' => 'Traceability',
+                        'title' => 'القابلية للتتبع',
 
                         'entries' => [
-                            'expiration-date'  => 'Expiration Date (Days)',
-                            'best-before-date' => 'Best Before Date (Days)',
-                            'removal-date'     => 'Removal Date (Days)',
-                            'alert-date'       => 'Alert Date (Days)',
+                            'expiration-date'  => 'تاريخ انتهاء الصلاحية (بأيام)',
+                            'best-before-date' => 'أفضل استخدام قبل (بأيام)',
+                            'removal-date'     => 'تاريخ الإزالة (بأيام)',
+                            'alert-date'       => 'تاريخ التنبيه (بأيام)',
                         ],
                     ],
                 ],

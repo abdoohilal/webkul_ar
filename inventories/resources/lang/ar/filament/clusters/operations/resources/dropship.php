@@ -2,8 +2,8 @@
 
 return [
     'navigation' => [
-        'title' => 'Dropships',
-        'group' => 'Transfers',
+        'title' => 'الدروبشيب',
+        'group' => 'التحويلات',
     ],
 
     'table' => [
@@ -11,29 +11,30 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Dropship deleted',
-                        'body'  => 'The dropship ras been deleted successfully.',
+                        'title' => 'تم حذف الدروبشيب',
+                        'body'  => 'تم حذف الدروبشيب بنجاح.',
                     ],
 
                     'error' => [
-                        'title' => 'Dropship could not be deleted',
-                        'body'  => 'The dropship cannot be deleted because it is currently in use.',
+                        'title' => 'تعذر حذف الدروبشيب',
+                        'body'  => 'لا يمكن حذف الدروبشيب لأنه قيد الاستخدام حالياً.',
                     ],
                 ],
             ],
-        ],
+        ], 
+        
 
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Dropships deleted',
-                        'body'  => 'The dropships has been deleted successfully.',
+                        'title' => 'تم حذف الدروبشيب',
+                        'body'  => 'تم حذف الدروبشيب بنجاح.',
                     ],
 
                     'error' => [
-                        'title' => 'Dropships could not be deleted',
-                        'body'  => 'The dropships cannot be deleted because they are currently in use.',
+                        'title' => 'تعذر حذف الدروبشيب',
+                        'body'  => 'لا يمكن حذف الدروبشيب لأنه قيد الاستخدام حالياً.',
                     ],
                 ],
             ],

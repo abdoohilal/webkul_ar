@@ -2,7 +2,7 @@
 
 return [
     'notification' => [
-        'title' => 'تم إنشاء الطرد',
-        'body'  => 'تم إنشاء الطرد بنجاح.',
+        'title' => 'Parcel Created',
+        'body'  => 'The parcel has been created successfully.',
     ],
 ];
